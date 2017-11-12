@@ -64,7 +64,7 @@ class Header extends Component {
       : variable;
     const platformStyle = variables.platformStyle;
     return (
-      <View onLayout={e => this.layoutChange(e.nativeEvent.layout)}>
+      <View onLayout={e => this.layoutChange(e.nativeEvent.layout)} style={{zIndex: 2147483647}}>
         <StatusBar
           backgroundColor={
             this.props.androidStatusBarColor
