@@ -64,7 +64,7 @@ class Header extends Component {
       : variable;
     const platformStyle = variables.platformStyle;
     return (
-      <View onLayout={e => this.layoutChange(e.nativeEvent.layout)} style={{zIndex: 2147483647}}>
+      <View onLayout={e => this.layoutChange(e.nativeEvent.layout)} style={{zIndex: this.props.zIndex || 10000}}>
         <StatusBar
           backgroundColor={
             this.props.androidStatusBarColor
@@ -114,7 +114,8 @@ Header.propTypes = {
     PropTypes.array
   ]),
   searchBar: PropTypes.bool,
-  rounded: PropTypes.bool
+  rounded: PropTypes.bool,
+  zIndex: PropTypes.number,
 };
 
 const StyledHeader = connectStyle(
