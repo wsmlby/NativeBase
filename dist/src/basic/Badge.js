@@ -17,8 +17,8 @@ this.props.children));
 }}]);return Badge;}(_react.Component);
 
 
-Badge.propTypes=_extends({},_Utils.ViewPropTypes,{
-
+Badge.propTypes=_extends({},
+_Utils.ViewPropTypes,{
 style:_propTypes2.default.oneOfType([_propTypes2.default.object,_propTypes2.default.number,_propTypes2.default.array])});
 
 

@@ -17,7 +17,7 @@ var variables=this.context.theme?this.context.theme["@@shoutem.theme/themeStyle"
 var platformStyle=variables.platformStyle;
 
 return(
-_react2.default.createElement(_reactNative.View,{style:{zIndex:2147483647},__source:{fileName:_jsxFileName,lineNumber:20}},
+_react2.default.createElement(_reactNative.View,{style:{zIndex:this.props.zIndex||10000},__source:{fileName:_jsxFileName,lineNumber:20}},
 _react2.default.createElement(_reactNative.StatusBar,{
 backgroundColor:
 this.props.androidStatusBarColor?this.props.androidStatusBarColor:variables.statusBarColor,
@@ -34,11 +34,12 @@ _react2.default.createElement(_reactNative.View,_extends({ref:function ref(c){re
 }}]);return Header;}(_react.Component);Header.contextTypes={theme:_propTypes2.default.object};
 
 
-Header.propTypes=_extends({},_Utils.ViewPropTypes,{
-
+Header.propTypes=_extends({},
+_Utils.ViewPropTypes,{
 style:_propTypes2.default.oneOfType([_propTypes2.default.object,_propTypes2.default.number,_propTypes2.default.array]),
 searchBar:_propTypes2.default.bool,
-rounded:_propTypes2.default.bool});
+rounded:_propTypes2.default.bool,
+zIndex:_propTypes2.default.number});
 
 
 var StyledHeader=(0,_nativeBaseShoutemTheme.connectStyle)("NativeBase.Header",{},_mapPropsToStyleNames2.default)(Header);exports.

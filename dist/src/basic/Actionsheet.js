@@ -138,8 +138,8 @@ _react2.default.createElement(_Right.Right,{__source:{fileName:_jsxFileName,line
 }}],[{key:"show",value:function show(config,callback){this.actionsheetInstance._root.showActionSheet(config,callback);}}]);return ActionSheetContainer;}(_react.Component);
 
 
-ActionSheetContainer.propTypes=_extends({},_Utils.ViewPropTypes,{
-
+ActionSheetContainer.propTypes=_extends({},
+_Utils.ViewPropTypes,{
 style:_propTypes2.default.oneOfType([_propTypes2.default.object,_propTypes2.default.number,_propTypes2.default.array])});
 
 

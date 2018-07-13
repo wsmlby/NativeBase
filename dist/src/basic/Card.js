@@ -30,8 +30,8 @@ this.props.children));
 }}]);return Card;}(_react.Component);
 
 
-Card.propTypes=_extends({},_Utils.ViewPropTypes,{
-
+Card.propTypes=_extends({},
+_Utils.ViewPropTypes,{
 style:_propTypes2.default.oneOfType([_propTypes2.default.object,_propTypes2.default.number,_propTypes2.default.array]),
 dataArray:_propTypes2.default.array,
 renderRow:_propTypes2.default.func});

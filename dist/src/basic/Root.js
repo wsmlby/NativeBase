@@ -28,8 +28,8 @@ if(!_Actionsheet.ActionSheetContainer.actionsheetInstance)_Actionsheet.ActionShe
 }}]);return Root;}(_react.Component);
 
 
-Root.propTypes=_extends({},_Utils.ViewPropTypes,{
-
+Root.propTypes=_extends({},
+_Utils.ViewPropTypes,{
 style:_propTypes2.default.oneOfType([_propTypes2.default.object,_propTypes2.default.number,_propTypes2.default.array])});
 
 

@@ -198,8 +198,8 @@ return _react2.default.createElement(_reactNative.Picker.Item,_extends({},this.p
 }});
 
 
-PickerNB.propTypes=_extends({},_Utils.ViewPropTypes,{
-
+PickerNB.propTypes=_extends({},
+_Utils.ViewPropTypes,{
 renderButton:_propTypes2.default.func});
 
 

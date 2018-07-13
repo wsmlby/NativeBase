@@ -34,8 +34,8 @@ this.props.children));
 }}]);return InputGroup;}(_react.Component);
 
 
-InputGroup.propTypes=_extends({},_Utils.ViewPropTypes,{
-
+InputGroup.propTypes=_extends({},
+_Utils.ViewPropTypes,{
 regular:_propTypes2.default.bool,
 underline:_propTypes2.default.bool,
 rounded:_propTypes2.default.bool,
